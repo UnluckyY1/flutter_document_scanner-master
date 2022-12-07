@@ -10,7 +10,6 @@ import 'package:flutter_document_scanner/src/bloc/edit/edit_event.dart';
 import 'package:flutter_document_scanner/src/bloc/edit/edit_state.dart';
 import 'package:flutter_document_scanner/src/ui/widgets/app_bar_edit_photo.dart';
 import 'package:flutter_document_scanner/src/ui/widgets/bottom_bar_edit_photo.dart';
-import 'package:flutter_document_scanner/src/utils/edit_photo_document_style.dart';
 import 'package:flutter_document_scanner/src/utils/image_utils.dart';
 import 'package:flutter_document_scanner/src/utils/model_utils.dart';
 
