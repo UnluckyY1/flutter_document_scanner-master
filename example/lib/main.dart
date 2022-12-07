@@ -40,8 +40,7 @@ class _MyAppState extends State<MyApp> {
                       ),
                       // takePhotoDocumentStyle: const TakePhotoDocumentStyle(
                       //     hideTakePhotoButton: true),
-                      // cropPhotoDocumentStyle:
-                      //     const CropPhotoDocumentStyle(hideAppBarDefault: true),
+                      // cropPhotoDocumentStyle: const CropPhotoDocumentStyle(),
                       // editPhotoDocumentStyle: const EditPhotoDocumentStyle(),
                       onSave: (Uint8List imageBytes) {
                         // ? Bytes of the document/image already processed

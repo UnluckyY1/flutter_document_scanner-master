@@ -190,9 +190,10 @@ class _CropView extends StatelessWidget {
                               );
                         },
                         child: Container(
-                          color: Colors.transparent,
                           width: cropPhotoDocumentStyle.dotSize,
                           height: cropPhotoDocumentStyle.dotSize,
+                          decoration: const BoxDecoration(
+                              color: Colors.white, shape: BoxShape.circle),
                           child: Center(
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(
@@ -202,7 +203,7 @@ class _CropView extends StatelessWidget {
                                 width: cropPhotoDocumentStyle.dotSize - (2 * 2),
                                 height:
                                     cropPhotoDocumentStyle.dotSize - (2 * 2),
-                                color: Colors.white,
+                                color: cropPhotoDocumentStyle.dotColor,
                               ),
                             ),
                           ),
@@ -230,7 +231,8 @@ class _CropView extends StatelessWidget {
                               );
                         },
                         child: Container(
-                          color: Colors.transparent,
+                          decoration: const BoxDecoration(
+                              color: Colors.white, shape: BoxShape.circle),
                           width: cropPhotoDocumentStyle.dotSize,
                           height: cropPhotoDocumentStyle.dotSize,
                           child: Center(
@@ -242,7 +244,7 @@ class _CropView extends StatelessWidget {
                                 width: cropPhotoDocumentStyle.dotSize - (2 * 2),
                                 height:
                                     cropPhotoDocumentStyle.dotSize - (2 * 2),
-                                color: Colors.white,
+                                color: cropPhotoDocumentStyle.dotColor,
                               ),
                             ),
                           ),
@@ -270,7 +272,8 @@ class _CropView extends StatelessWidget {
                               );
                         },
                         child: Container(
-                          color: Colors.transparent,
+                          decoration: const BoxDecoration(
+                              color: Colors.white, shape: BoxShape.circle),
                           width: cropPhotoDocumentStyle.dotSize,
                           height: cropPhotoDocumentStyle.dotSize,
                           child: Center(
@@ -279,11 +282,11 @@ class _CropView extends StatelessWidget {
                                 cropPhotoDocumentStyle.dotRadius,
                               ),
                               child: Container(
-                                width: cropPhotoDocumentStyle.dotSize - (2 * 2),
-                                height:
-                                    cropPhotoDocumentStyle.dotSize - (2 * 2),
-                                color: Colors.white,
-                              ),
+                                  width:
+                                      cropPhotoDocumentStyle.dotSize - (2 * 2),
+                                  height:
+                                      cropPhotoDocumentStyle.dotSize - (2 * 2),
+                                  color: cropPhotoDocumentStyle.dotColor),
                             ),
                           ),
                         ),
@@ -310,7 +313,8 @@ class _CropView extends StatelessWidget {
                               );
                         },
                         child: Container(
-                          color: Colors.transparent,
+                          decoration: const BoxDecoration(
+                              color: Colors.white, shape: BoxShape.circle),
                           width: cropPhotoDocumentStyle.dotSize,
                           height: cropPhotoDocumentStyle.dotSize,
                           child: Center(
@@ -319,11 +323,11 @@ class _CropView extends StatelessWidget {
                                 cropPhotoDocumentStyle.dotRadius,
                               ),
                               child: Container(
-                                width: cropPhotoDocumentStyle.dotSize - (2 * 2),
-                                height:
-                                    cropPhotoDocumentStyle.dotSize - (2 * 2),
-                                color: Colors.white,
-                              ),
+                                  width:
+                                      cropPhotoDocumentStyle.dotSize - (2 * 2),
+                                  height:
+                                      cropPhotoDocumentStyle.dotSize - (2 * 2),
+                                  color: cropPhotoDocumentStyle.dotColor),
                             ),
                           ),
                         ),

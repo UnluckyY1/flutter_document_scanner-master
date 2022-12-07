@@ -24,6 +24,8 @@ class CropPhotoDocumentStyle {
   ///
   final Color? maskColor;
 
+  final Color dotColor;
+
   ///
   final ui.ImageFilter? maskFilter;
 
@@ -37,6 +39,7 @@ class CropPhotoDocumentStyle {
   const CropPhotoDocumentStyle({
     this.hideAppBarDefault = false,
     this.textButtonSave = "CROP",
+    this.dotColor=Colors.white,
     this.children,
     this.top = 0,
     this.bottom = 0,
